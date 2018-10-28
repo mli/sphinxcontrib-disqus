@@ -1,8 +1,6 @@
 """Sphinx extension that embeds Disqus comments in documents.
-
-https://sphinxcontrib-disqus.readthedocs.org
-https://github.com/Robpol86/sphinxcontrib-disqus
-https://pypi.python.org/pypi/sphinxcontrib-disqus
+Modified by mli, check
+https://github.com/mli/sphinxcontrib-disqus
 """
 
 from __future__ import print_function
@@ -12,7 +10,7 @@ import re
 
 from docutils import nodes
 from docutils.parsers.rst import Directive
-from sphinx.application import ExtensionError, SphinxError
+from sphinx.errors import ExtensionError, SphinxError
 
 __author__ = '@Robpol86'
 __license__ = 'MIT'
